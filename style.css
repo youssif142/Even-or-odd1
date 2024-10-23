@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ffcc33, #ff6699);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 350px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#numberDisplay {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffeb3b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#evenBtn {
+  background-color: #4caf50;
+  color: white;
+}
+
+#oddBtn {
+  background-color: #f44336;
+  color: white;
+}
+
+.buttons button:hover {
+  transform: scale(1.1);
+}
+
+#result {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.streak-counter p,
+.game-info p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #ffeb3b;
+}
+
+#resetBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  display: none;
+}
+
+#resetBtn:hover {
+  transform: scale(1.1);
+}
+
+#gameOverMessage {
+  font-size: 24px;
+  color: #ffeb3b;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.game-info p {
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#timer {
+  color: #f44336;
+}
+
+#attemptsLeft {
+  color: #ffeb3b;
+}
